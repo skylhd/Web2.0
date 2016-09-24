@@ -1,0 +1,157 @@
+body {
+	margin:0px;
+	padding:0px;
+	position:relative;
+}
+
+.article {
+	background-image:url('../img/background.png');
+	overflow:hidden;
+}
+
+h1 {
+	text-align:center;
+	font-size:24pt;
+	font-weight:bold;
+	font-family:Tahoma, Verdana, sans-serif;
+
+}
+
+
+.container {
+	width:800px;
+	border:4px;
+	border-color:gray;
+	border-style:solid;
+	overflow:hidden;
+	font-family:Verdana, Tahoma, sans-serif;
+	margin:auto;
+}
+
+.left-section {
+	width:550px;
+}
+
+.right-section {
+	float:right;
+	width:250px;
+}
+
+.right-top-section {
+	vertical-align:top;
+	width:250px;
+	height:412px;
+}
+
+.left-top-section {
+	width:550px;
+	height:83px;
+	vertical-align:top;
+	text-align:left;
+	float:right;
+	background-image:url('../img/rottenbackground.png');
+}
+
+.comments {
+	float:left;
+	width:550px;
+	word-wrap:break-word;
+}
+
+.left-bottom-section {
+	width:550px;
+	float:right;
+	overflow:hidden;
+}
+
+.col-left {
+	width:47%;
+	float:left;
+	margin-left:2%;
+	margin-right:1%;
+}
+
+.col-right {
+	width:47%;
+	float:right;
+	margin-right:2%;
+	margin-left:1%;
+}
+
+.comment {
+	margin:8px;
+	margin-bottom:3em;
+	height:auto;
+}
+
+img.quotepic {
+	text-align:left;
+	vertical-align:top;
+	margin:0px 5px 0px 0px;
+	float:left;
+}
+
+.blockquote {
+	font-size:8pt;
+	font-weight:bold;
+	background-color:#E1D697;
+	border-width:2px;
+	border-style:solid;
+	border-color:gray;
+	padding:8px;
+	margin:0px;
+	word-wrap:break-word;
+	min-height:30px;
+}
+
+.name {
+	font-style:italic;
+	font-size:8pt;
+}
+
+.right-bottom-section {
+	background-color:#A2B964;
+	width:230px;
+	padding:10px;
+}
+
+dl {
+	font-family:Arial, sans-serif;
+	font-size:8pt;
+}
+
+dt {
+	font-weight:bold;
+}
+
+dd {
+	margin:0px;
+	margin-left:45px;
+	margin-bottom:1em;
+}
+
+.bottom-section {
+	background-color:#A2B964;
+	font-size:8pt;
+	vertical-align:bottom;
+	width:800px;
+	float:left;
+	text-align:center;
+	margin:0px;
+	padding:5px;
+}
+
+p img {
+	text-align:left;
+	vertical-align:top;
+	margin:0px 5px 0px 0px;
+	float:left;
+}
+
+.w3c {
+	position:absolute;
+	right:0;
+	bottom:0;
+	padding:0px;
+	width:88px;
+}

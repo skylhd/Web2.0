@@ -1,0 +1,271 @@
+#at-plus-container {
+	position:absolute;
+	bottom:40%;
+	left:45%;
+}
+
+/*This is the @+ button*/
+.apb {
+	display:inline-block;
+	position:absolute;
+	top:169px;
+	left:55px;
+	padding:0;
+	margin:0;
+	background-size:contain;
+	/*多重背景*/
+	background:url('../images/atplus_white.png') no-repeat center, gray;
+	border-radius:50%;
+	height:32px;
+	width:32px;
+	background-size:75%;
+	transition:background 1.0s, top 1.0s, left 1.0s, height 1.0s, width 1.0s;
+	transition-delay:1.1s;
+}
+
+#button:hover .apb{
+	top:146px;
+	left:32px;
+	height:78px;
+	width:78px;
+	background:url('../images/atplus_green.png') no-repeat center, rgb(48, 63, 159);
+	background-size:75%;
+}
+
+#button {
+	overflow:hidden;
+	height:auto;
+	width:auto;
+}
+
+#control-ring-container {
+	display:inline-block;
+}
+#control-ring-container ul {
+	display:inline-block;
+}
+#control-ring-container ul li {
+	display:inline-block;
+}
+
+ul {
+	list-style-type:none;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+li {
+	margin-bottom:0.5em;
+}
+
+.info li {
+	pointer-events:none;
+}
+
+.page.user {
+	padding-top:0.5em;
+}
+
+.mine.posted {
+	position: absolute;
+    left: 22px;
+    bottom: 15px;
+}
+
+.mine.like {
+	position: absolute;
+    right: 15px;
+    bottom: 13px;
+}
+
+.page.comment span {
+	font-size:0px;
+	vertical-align:bottom;
+	transition:font-size 1s;
+	transition-delay:0.5s;
+}
+
+#button:hover .page.comment span {
+	font-size:30px;
+	transition-delay:1s;
+}
+
+.mine span {
+	color:#56BC95;
+}
+
+.info {
+	position:absolute;
+	top:185px;
+	left:71px;
+	background-color:gray;
+	border-radius:50%;
+	height:0px;
+	width:0px;
+	text-align:center;
+	display:block;
+	opacity:0;
+	transition:top 0.5s, left 0.5s, opacity 0.5s, height 0.5s, width 0.5s;
+	transition-delay:0.25s;
+}
+
+#button:hover .info {
+	top:0px;
+	left:4px;
+	height:138px;
+	width:138px;
+	opacity:1;
+	transition-delay:1s;
+}
+
+img {
+	padding-right:0.6em;
+	pointer-events:none;
+}
+
+span {
+	font-family:Tahoma, Verdana, sans-serif;
+	font-size:0px;
+	color:white;
+	font-weight:bold;
+	vertical-align:top;
+	transition:font-size 0.1s;
+	transition-delay:0.25s;
+}
+
+#button:hover span {
+	font-size:18px;
+	transition-delay:1s;
+}
+
+.button {
+	background-color:gray;
+	border-radius:50%;
+	position:absolute;
+}
+
+.sign {
+	top:185px;
+	left:71px;
+	opacity:0;
+	height:0px;
+	width:0px;
+	transition:top 0.8s, left 0.8s, opacity 0.8s,height 0.8s, width 0.8s;
+	transition-delay:0.25s;
+}
+
+#button:hover .sign {
+	top:240px;
+	left:81px;
+	opacity:1;
+	height:40px;
+	width:40px;
+	transition-delay:1s;
+}
+
+.setting {
+	top:185px;
+	left:71px;
+	opacity:0;
+	height:0px;
+	width:0px;
+	transition:top 0.8s, left 0.8s, opacity 0.8s,height 0.8s, width 0.8s;
+	transition-delay:0.25s;
+}
+
+#button:hover .setting {
+	top:246px;
+	left:25px;
+	opacity:1;
+	height:40px;
+	width:40px;
+	transition-delay:1s;
+}
+
+.message {
+	top:185px;
+	left:71px;
+	opacity:0;
+	height:0px;
+	width:0px;
+	transition:top 0.8s, left 0.8s, opacity 0.8s,height 0.8s, width 0.8s;
+	transition-delay:0.25s;
+}
+
+#button:hover .message {
+	top:218px;
+	left:-20px;
+	opacity:1;
+	height:40px;
+	width:40px;
+	transition-delay:1s;
+}
+
+.history {
+	top:185px;
+	left:71px;
+	opacity:0;
+	height:0px;
+	width:0px;
+	transition:top 0.8s, left 0.8s, opacity 0.8s,height 0.8s, width 0.8s;
+	transition-delay:0.25s;
+}
+
+#button:hover .history {
+	top:171px;
+	left:-30px;
+	opacity:1;
+	height:40px;
+	width:40px;
+	transition-delay:1s;
+}
+
+.mask {
+	top:185px;
+	left:71px;
+	opacity:0;
+	height:0px;
+	width:0px;
+	transition:top 0.8s, left 0.8s, opacity 0.8s,height 0.8s, width 0.8s;
+	transition-delay:0.25s;
+}
+
+#button:hover .mask {
+	top:122px;
+	left:-20px;
+	opacity:1;
+	height:40px;
+	width:40px;
+	transition-delay:1s;
+}
+
+.button img {
+	padding-top:9px;
+	padding-left:9px;
+}
+
+span.unread {
+	position:relative;
+	top:-40px;
+	left:15px;
+	font-size:0px;
+	height:0px;
+	width:0px;
+	opacity:0;
+	background-color:red;
+	color:white;
+	border-radius:50%;
+	display:inline-block;
+	transition:opacity 0.8s, height 0.8s, width 0.8s, font-size 0.8s;
+	transition-delay:0.25s;
+}
+
+#button:hover span.unread {
+	font-size:10px;
+	height:17px;
+	width:17px;
+	opacity:1;
+	transition:opacity 0.8s;
+	transition-delay:1s;
+}
