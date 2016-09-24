@@ -63,6 +63,10 @@ li {
 	pointer-events:none;
 }
 
+#button:hover .info li {
+	pointer-events:all;
+}
+
 .page.user {
 	padding-top:0.5em;
 }
