@@ -1,0 +1,50 @@
+body {
+	font-family:Arial, Helvetica, FreeSans, sans-serif;
+}
+
+table{
+	border-spacing:0;
+}
+
+thead {
+	text-align:left;
+}
+
+th, td {
+	border-width:1px;
+	border-style:solid;
+	border-color:gray;
+	padding:0;
+	margin:0;
+}
+
+th {
+	background-color:#02197F;
+	color:white;
+	overflow:hidden;
+}
+
+th.sele {
+	background-color:#A4B0FC;
+}
+
+.alternate {
+	background-color:#DDDDDD;
+}
+
+.up {
+	background-image:url('ascend.png');
+	background-repeat:no-repeat;
+}
+
+.down {
+	background-image:url('descend.png');
+	background-repeat:no-repeat;
+}
+
+#icon {
+	width:16px;
+	height:16px;
+	margin:2px;
+	float:right;
+}

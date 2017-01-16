@@ -1,0 +1,136 @@
+body {
+	text-align:center;
+	
+}
+
+p {
+	font-size:30px;
+	font-family: Microsoft YaHei;
+}
+
+#puzzle {
+	width:692px;
+	height:502px;
+	margin:auto;
+	margin-bottom:10px;
+	text-align:left;
+	position:relative;
+}
+
+#restart {
+	height:40px;
+	width:121px;
+	color:white;
+	border-width:0px;
+	font-size:21px;
+	background-color:rgb(0,128,255);
+	font-family: Microsoft YaHei;
+	box-shadow: 5px 5px 10px #888888;
+}
+
+.btn {
+	position:absolute;
+	width:173px;
+	height:125px;
+	background-image:url('../img/bgs.jpg');
+	border-width:0.1em;
+	border-style:solid;
+	border-color:gray;
+	margin:0px;
+	transition:top 0.5s, left 0.5s;
+}
+
+.btn:hover {
+	position:relative;
+	right:1px;
+	bottom:1px;
+	border-color:rgb(0,128,255);
+	border-width:2px;
+	border-style:groove;
+}
+
+#btn0 {
+	background-position:0px 0px;
+}
+
+#btn1 {
+	background-position:33% 0;
+}
+
+#btn2 {
+	background-position:66% 0;
+}
+
+#btn3 {
+	background-position:100% 0;
+}
+
+#btn4 {
+	background-position:0px 33%;
+}
+#btn5 {
+	background-position:33% 33%;
+}
+#btn6 {
+	background-position:66% 33%;
+}
+#btn7 {
+	background-position:100% 33%;
+}
+#btn8 {
+	background-position:0px 66%;
+}
+#btn9 {
+	background-position:33% 66%;
+}
+#btn10 {
+	background-position:66% 66%;
+}
+#btn11 {
+	background-position:100% 66%;
+}
+#btn12 {
+	background-position:0px 100%;
+}
+#btn13 {
+	background-position:33% 100%;
+}
+#btn14 {
+	background-position:66% 100%;
+}
+#btn15 {
+	background:white;
+	border-width:0px;
+}
+
+.r0 {
+	top:0px;
+}
+
+.r1 {
+	top:125px;
+}
+
+.r2 {
+	top:250px;
+}
+
+.r3 {
+	top:375px;
+}
+
+.c0 {
+	left:0px;
+}
+
+.c1 {
+	left:173px;
+}
+
+.c2 {
+	left:346px;
+}
+
+.c3 {
+	left:519px;
+}

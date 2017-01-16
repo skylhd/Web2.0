@@ -1,0 +1,45 @@
+body {
+	text-align:center;
+}
+
+div#positioner {
+	font-size:35px;
+	font-family:Microsoft Yahei, sans-serif;
+}
+
+div#register {
+	border:solid 1px gray;
+}
+
+form {
+	text-align:center;
+}
+
+table {
+	margin:auto;
+	font-size:20px;
+}
+
+span {
+	width:19px;
+	height:19px;
+	display:inline-block;
+}
+
+.wait {
+	background-image:url('../img/wait.gif');
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+.wrong {
+	background-image:url('../img/wrong.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+.correct {
+	background-image:url('../img/correct.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+}

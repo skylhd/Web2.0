@@ -1,0 +1,114 @@
+body {
+	text-align:center;
+	font-family: muli, Arial, sans-serif;
+}
+
+@font-face {
+	font-family:muli;
+	src: url('../asserts/font/Muli-Light.ttf');
+}
+
+#title {
+	font-size:33px;
+	margin-bottom:20px;
+}
+
+#subtitle {
+	font-size:20px;
+	font-weight:bold;
+}
+
+#info {
+	margin:auto;
+	width:350px;
+	height:auto;
+	overflow:hidden;
+}
+
+div#info > div {
+	display:inline-block;
+}
+
+table {
+	font-family:muli;
+}
+
+th.left {
+	text-align:left;
+}
+
+th.right {
+	text-align:right;
+}
+
+#start-button {
+	display:inline-block;
+	background-color:white;
+	width:175px;
+	height:25px;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+	border-width:1px;
+	padding:0px;
+	font-size: 10px;
+	font-family:muli;
+	font-weight:bold;
+}
+
+#start-button:active {
+	position:relative;
+	background-color:rgb(73,153,245);
+	top: 1px;
+}
+
+#time {
+	width: 50px;
+}
+
+#gameover {
+	width:125px;
+	font-family:muli;
+	font-weight:bold;
+}
+
+#score {
+	width:50px;
+}
+
+#buttons {
+	width:300px;
+	height:180px;
+	border-style:solid;
+	border-width:1px 0px 1px 0px;
+	border-color:rgb(168,168,168);
+	margin:25px auto;
+}
+
+.btn {
+	height:20px;
+	width:20px;
+	border-radius:50%;
+	margin:5px;
+}
+
+dl {
+	width:1000px;
+	margin:auto;
+	font-family: cursive;
+}
+
+dt {
+	width:100px;
+	margin:0 auto 20px 100px;
+	text-align:left;
+	font-size:22px;
+	font-weight:bold;
+}
+
+dd {
+	width:700px;
+	margin:auto;
+	text-align:left;
+}
+

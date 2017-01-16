@@ -1,0 +1,40 @@
+﻿doctype html
+html
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    | 
+    link(rel='stylesheet', type='text/css', href='css/index.css')
+    | 
+    script(type='text/javascript', src='js/jquery-3.1.1.min.js')
+    | 
+    | 
+    title 用户详情
+  body
+    #positioner
+      | 详情
+      #register
+        #subtitle 用户详情
+        | 
+        form#regform(action='/logout', method='POST')
+          table
+            tr(valign='bottom')
+              td 用户名
+              | 
+              td #{username}
+            tr(valign='bottom')
+              td 学号
+              | 
+              td #{num}
+            tr(valign='bottom')
+              td 电话
+              | 
+              td #{phone}
+            tr(valign='bottom')
+              td 邮箱
+              | 
+              td #{email}
+            tr(valign='bottom',display='hidden')
+              td#error(colspan='2') #{ErrorMessage}
+            tr(valign='bottom')
+              td#logout(colspan='2')
+                input#reset(type='submit', value='退出登录')

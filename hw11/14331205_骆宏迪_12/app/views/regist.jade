@@ -1,0 +1,78 @@
+doctype html
+html
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    | 
+    link(rel='stylesheet', type='text/css', href='css/index.css')
+    | 
+    script(type='text/javascript', src='js/jquery-3.1.1.min.js')
+    | 
+    script(type='text/javascript', src='js/sign.js')
+    | 
+    | 
+    title 用户注册
+  body
+    #positioner
+      | 注册
+      #register
+        #subtitle 用户注册
+        | 
+        form#regform(action='', method='POST')
+          table
+            tr(valign='bottom')
+              td 用户名
+              | 
+              td
+                input#uname(type='text', name='username')
+              | 
+              td
+                span#namecheck
+            | 
+            tr(valign='bottom')
+              td 密码
+              | 
+              td
+                input#upass(type='password', name='password')
+              | 
+              td
+                span#passcheck
+            tr(valign='bottom')
+              td 重复密码
+              | 
+              td
+                input#urepeat(type='password', name='repeatpassword')
+              | 
+              td
+                span#repeatcheck
+            tr(valign='bottom')
+              td 学号
+              | 
+              td
+                input#unum(type='text', name='num')
+              | 
+              td
+                span#numcheck
+            | 
+            tr(valign='bottom')
+              td 电话
+              | 
+              td
+                input#uphone(type='text', name='phone')
+              | 
+              td
+                span#phonecheck
+            | 
+            tr(valign='bottom')
+              td 邮箱
+              | 
+              td
+                input#umail(type='text', name='email')
+              | 
+              td
+                span#mailcheck
+            tr(valign='bottom')
+              td#error #{ErrorMessage}
+          | 
+          input#reset(type='button', value='重置')
+          | 
+          input#sub(type='submit', value='提交')

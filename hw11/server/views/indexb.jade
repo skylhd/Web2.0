@@ -1,0 +1,60 @@
+doctype html
+html
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    | &#x9;
+    link(rel='stylesheet', type='text/css', href='css/index.css')
+    | &#x9;
+    script(type='text/javascript', src='js/jquery-3.1.1.min.js')
+    | &#x9;
+    script(type='text/javascript', src='js/index.js')
+    | &#x9;
+    | &#x9;
+    title &#x6CE8;&#x518C;&#x9875;&#x9762;
+  body
+    #positioner
+      | &#x6CE8;&#x518C;
+      #register
+        #subtitle &#x7528;&#x6237;&#x6CE8;&#x518C;
+        | &#x9;&#x9;&#x9;
+        form#regform(action='', method='POST')
+          table
+            tr(valign='bottom')
+              td &#x7528;&#x6237;&#x540D;
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              td
+                input#uname(type='text', name='username')
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              td
+                span#namecheck
+            | &#x9;&#x9;&#x9;&#x9;&#x9;
+            tr(valign='bottom')
+              td &#x5B66;&#x53F7;
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              td
+                input#unum(type='text', name='num')
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              td
+                span#numcheck
+            | &#x9;&#x9;&#x9;&#x9;&#x9;
+            tr(valign='bottom')
+              td &#x7535;&#x8BDD;
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              td
+                input#uphone(type='text', name='phone')
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              td
+                span#phonecheck
+            | &#x9;&#x9;&#x9;&#x9;&#x9;
+            tr(valign='bottom')
+              td &#x90AE;&#x7BB1;
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              td
+                input#umail(type='text', name='email')
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              td
+                span#mailcheck
+          | &#x9;&#x9;&#x9;&#x9;
+          input#reset(type='button', value='重置')
+          | &#x9;&#x9;&#x9;&#x9;
+          input#sub(type='submit', value='提交')

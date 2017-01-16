@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	
+	<title>注册页面</title>
+</head>
+<body>
+	<div id="positioner">
+		注册
+		<div id="register">
+			<div id="subtitle">用户注册</div>
+			<form action="" method="POST" id="regform">
+				<table >
+					<tr valign="bottom">
+						<td>用户名</td>
+						<td><input type="text" name="username" id="uname"/></td>
+						<td><span id="namecheck"></span></td>
+					</tr>
+					<tr valign="bottom">
+						<td>学号</td>
+						<td><input type="text" name="num" id="unum"/></td>
+						<td><span id="numcheck"></span></td>
+					</tr>
+					<tr valign="bottom">
+						<td>电话</td>
+						<td><input type="text" name="phone" id="uphone" /></td>
+						<td><span id="phonecheck"></span></td>
+					</tr>
+					<tr valign="bottom">
+						<td>邮箱</td>
+						<td><input type="text" name="email" id="umail"/></td>
+						<td><span id="mailcheck"></span></td>
+					</tr>
+				</table>
+				<input type="button" value="重置" id="reset"/>
+				<input type="submit" value="提交" id="sub"/>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

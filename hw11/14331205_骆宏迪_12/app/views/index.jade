@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    | 
+    link(rel='stylesheet', type='text/css', href='css/index.css')
+    | 
+    script(type='text/javascript', src='js/jquery-3.1.1.min.js')
+    | 
+    script(type='text/javascript', src='js/index.js')
+    | 
+    | 
+    title 用户登录
+  body
+    #positioner
+      | 登录
+      #register
+        #subtitle 用户登录
+        | 
+        form#regform(action='/', method='POST')
+          table
+            tr(valign='bottom')
+              td 用户名
+              | 
+              td
+                input#uname(type='text', name='username')
+            | 
+            tr(valign='bottom')
+              td 密码
+              | 
+              td
+                input#unum(type='password', name='password')
+            tr(valign='bottom',display='hidden')
+              td#error(colspan='2') #{ErrorMessage}
+          | 
+          input#reset(type='button', value='重置')
+          | 
+          input#sign(type='button', value='注册')
+          | 
+          input#sub(type='submit', value='提交')

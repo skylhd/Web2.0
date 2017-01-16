@@ -1,0 +1,263 @@
+#at-plus-container {
+	position:absolute;
+	bottom:40%;
+	left:45%;
+}
+
+/*This is the @+ button*/
+.apb {
+	display:inline-block;
+	position:absolute;
+	top:169px;
+	left:55px;
+	padding:0;
+	margin:0;
+	background-size:contain;
+	/*多重背景*/
+	background:url('../assets/images/atplus_white.png') no-repeat center, gray;
+	border-radius:50%;
+	height:32px;
+	width:32px;
+	background-size:75%;
+	transition:0.5s;
+	transition-delay:1.25s;
+}
+
+#button:hover .apb{
+	top:146px;
+	left:32px;
+	height:78px;
+	width:78px;
+	background:url('../assets/images/atplus_green.png') no-repeat center, rgb(48, 63, 159);
+	background-size:75%;
+	transition:0.5s;
+	transition-delay:0.0s;
+}
+
+#button {
+	overflow:hidden;
+	height:auto;
+	width:auto;
+}
+
+#control-ring-container {
+	display:inline-block;
+}
+#control-ring-container ul {
+	display:inline-block;
+}
+#control-ring-container ul li {
+	display:inline-block;
+}
+
+ul {
+	list-style-type:none;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+li {
+	margin-bottom:0.5em;
+}
+
+.info {
+	position:absolute;
+	top:185px;
+	left:71px;
+	background-color:#204699;
+	border-radius:50%;
+	height:0px;
+	width:0px;
+	text-align:center;
+	display:block;
+	opacity:0;
+	transition:0.5s;
+	transition-delay:1.0s;
+}
+
+#button:hover .info {
+	top:0px;
+	left:4px;
+	height:138px;
+	width:138px;
+	opacity:1;
+	transition:0.5s;
+	transition-delay:0.0s;
+}
+
+span {
+	font-family:Tahoma, Verdana, sans-serif;
+	font-size:0px;
+	color:#3BD8A1;
+	font-weight:bold;
+	vertical-align:center;
+	transition:font-size 0.5s;
+	transition-delay:1.0s;
+}
+
+#button:hover span {
+	font-size:xx-large;
+	transition:0.5s;
+	transition-delay:0.0s;
+}
+
+.button {
+	background-color:#204699;
+	border-radius:50%;
+	position:absolute;
+	color:#3BD8A1;
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size:25px;
+	font-weight:bold;
+}
+
+.E {
+	top:185px;
+	left:71px;
+	opacity:0;
+	height:0px;
+	width:0px;
+	transition:0.5s;
+	transition-delay:1.0s;
+}
+
+#button:hover .E {
+	top:240px;
+	left:81px;
+	opacity:1;
+	height:40px;
+	width:40px;
+	transition:0.5s;
+	transition-delay:0.0s;
+}
+
+.D {
+	top:185px;
+	left:71px;
+	opacity:0;
+	height:0px;
+	width:0px;
+	transition:0.5s;
+	transition-delay:1.0s;
+}
+
+#button:hover .D {
+	top:246px;
+	left:25px;
+	opacity:1;
+	height:40px;
+	width:40px;
+	transition:0.5s;
+	transition-delay:0.0s;
+}
+
+.C {
+	top:185px;
+	left:71px;
+	opacity:0;
+	height:0px;
+	width:0px;
+	transition:0.5s;
+	transition-delay:1.0s;
+}
+
+#button:hover .C {
+	top:218px;
+	left:-20px;
+	opacity:1;
+	height:40px;
+	width:40px;
+	transition:0.5s;
+	transition-delay:0.0s;
+}
+
+.B {
+	top:185px;
+	left:71px;
+	opacity:0;
+	height:0px;
+	width:0px;
+	transition:0.5s;
+	transition-delay:1.0s;
+}
+
+#button:hover .B {
+	top:171px;
+	left:-30px;
+	opacity:1;
+	height:40px;
+	width:40px;
+	transition:0.5s;
+	transition-delay:0.0s;
+}
+
+.A {
+	top:185px;
+	left:71px;
+	opacity:0;
+	height:0px;
+	width:0px;
+	transition:0.5s;
+	transition-delay:1.0s;
+}
+
+#button:hover .A {
+	top:122px;
+	left:-20px;
+	opacity:1;
+	height:40px;
+	width:40px;
+	transition:0.5s;
+	transition-delay:0.0s;
+}
+
+span.num {
+	position:relative;
+	top:-51px;
+	left:20px;
+	font-size:15px;
+	height:25px;
+	width:25px;
+	opacity:1;
+	background-color:red;
+	color:white;
+	border-radius:50%;
+	display:inline-block;
+}
+
+#button:hover span.num{
+	font-size:15px;
+}
+
+span.sum {
+	position:relative;
+	top:0px;
+	font-size:0px;
+	height:0px;
+	width:0px;
+	transition:0.5s;
+	transition-delay:1.0s;
+}
+
+#button:hover span.sum {
+	font-size:18px;
+	top:25%;
+	height:48px;
+	width:48px;
+	transition:0.5s;
+	transition-delay:0.0s;
+}
+
+span.nothing {
+	position:relative;
+	top:-51px;
+	left:20px;
+	height:25px;
+	width:25px;
+	opacity:0;
+}
+
+.disable {
+	background-color:gray;
+}
